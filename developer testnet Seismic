@@ -26,3 +26,7 @@ cd try-devnet/packages/contract/
 --------------------------
 bash script/deploy.sh
 --------------------------
+copy address and faucet
+faucet link -> https://faucet-2.seismicdev.net/
+wait a few minutes for the tokens to reach this wallet then enter
+Done!
