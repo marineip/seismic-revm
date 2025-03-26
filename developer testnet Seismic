@@ -29,4 +29,18 @@ bash script/deploy.sh
 copy address and faucet
 faucet link -> https://faucet-2.seismicdev.net/
 wait a few minutes for the tokens to reach this wallet then enter
+
+--------------------------
+Interact with an encrypted contract
+Install Bun
+--------------------------
+curl -fsSL https://bun.sh/install | bash
+--------------------------
+Install node dependencies
+--------------------------
+cd try-devnet/packages/cli/
+bun install
+--------------------------
+Send transactions
+bash script/transact.sh
 Done!
